@@ -10,3 +10,6 @@ using api from dataset
 
 build convolution neural network to classify between images 
 output is softmax to  43 kind from traffic sign
+
+link data on kaggle
+https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
