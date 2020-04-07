@@ -13,3 +13,7 @@ output is softmax to  43 kind from traffic sign
 
 link data on kaggle
 https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+
+#deep learning
+#CNN
+#open cv
