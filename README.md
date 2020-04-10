@@ -22,16 +22,23 @@ how to link data from kaggle to colab
 steps:>>>>
 
 1- install kaggle on colab
-        using this  command  !pip install kaggle
+
+        using this  command  
+        !pip install kaggle
   
 2- go to your account on kaggle 
-       and download expire api token (this file is .json)
+       and download
+       
+       expire api token (this file is .json)
 
-3-download this file(.json) on local machine 
+3-download this file
+
+     (.json) on local machine 
 
 4-upload this file to your google colab
        
 3- execute this command
+
       !mkdir -p ~/.kaggle
       !cp kaggle.json ~/.kaggle/
       
@@ -44,11 +51,12 @@ steps:>>>>
 5-from dataset copy api to dataset
 
  for example 
+ 
         !kaggle datasets download -d meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 finally:
      
-     unzip file::>>>>>
+   unzip file::>>>>>
      
      from zipfile import ZipFile
      file_name = "file_link_from_kaggle.zip"
@@ -61,4 +69,5 @@ finally:
 i hope this document  will be useful
 
 thanks 
+
 ahmed hassan
